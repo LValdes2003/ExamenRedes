@@ -4,6 +4,8 @@
 
 # Explicación
 
+Cada ciudad es una red de ciudadanos, o PCs. Estos PCs se conectan con un switch. Las dos ciudades se conectan con dos tótems, o routers, donde cada router tiene su tabla de enrutamiento estática que ayuda que un ciudadano pueda conversar con otro en la otra ciudad. Al recibir un paquete con destinario de otra red, el switch lo manda al default gateway, el router. Luego el router consulta la tabla de enrutamiento para mandar el paquete por su conexión al otro router. A continuación se explica la configuración de los dispositivos.
+
 ### Routers
 
 Router llamado Ciudad1 modelo 2911 configurado con ip 10.0.0.1 255.255.255.0 para interface GigabitEthernet0/0 conectado a un switch usando comandos:
