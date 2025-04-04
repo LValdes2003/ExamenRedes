@@ -1,5 +1,7 @@
 https://github.com/LValdes2003/ExamenRedesDraft
 
+![Figura 6](/Diagramas/Figura6.png)
+
 # Guía
 
 ### Teoría
