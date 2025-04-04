@@ -47,6 +47,10 @@ interface range GigabitEthernet1/0/1-2
 switchport mode trunk
 ```
 
+### Interfaces IP de Multilayer Switch
+
+![Figura 5](/Diagramas/Figura5.png)
+
 ### Switches
 
 Los puertos conectados a PCs se configuran con el VLAN correspondiente. PC0 VLAN 10, PC1 VLAN 20, PC2 VLAN 30, PC3 VLAN 10, PC4 VLAN 20, PC5 VLAN 30. Comandos para Switch1:
